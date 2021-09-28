@@ -17,13 +17,13 @@ Asena.addCommand({pattern: 'insta ?(.*)', fromMe: false, desc: "Downloads from i
     var reply = await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
     
    const { status, type, data } = await instagram(match[1], 'julie')
-    if (!status) return await message.sendMessage('✅️Example : https://www.instagram.com/p/CCdcH3FBd1a/?utm_medium=copy_link\n\n*Change /reel/ to /p/ Then give Command .insta*\n\n*Any doubt ask to Farhan or Amal*')
+    if (!status) return await message.sendMessage('✅️Example https://www.instagram.com/p/BiBiE3vndFR/?utm_medium=copy_link\n\n* if you are trying to download reel Change /reel/ to /p/ Then paste that link after .insta then send the message*\n\n*Any doubt ask me in insta @sahad.ikr*')
 
     reply = await message.client.sendMessage(message.jid,UPLOAD_ING , MessageType.text, { quoted: message.data });
     
-    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "*Codded by JulieMwol*", quoted: message.data })
+    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "*Codded by Sahad ikr*", quoted: message.data })
     
-    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "*Codded by JulieMwol*", quoted: message.data })
+    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "*Codded by Sahad ikr*", quoted: message.data })
     
 });
     
