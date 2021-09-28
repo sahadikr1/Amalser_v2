@@ -246,11 +246,11 @@
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*Updated ✅️*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "*Amalser Restarting ✅️*",
+            "AFTER_UPDATE": "*Restarting ✅️*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
-            "PL_DESC": "Displays metadata data of group or person.",
+            "PL_DESC": "Displays metadata data of group or person. 💌 if you need any help message me in instagram www.instagram.com/sahad.ikr 💌",
             "SUB": "*Group Name:* ",
             "DES": "*Group Description:* ",
             "OWN": "*Founder:* ",
@@ -280,7 +280,7 @@
             "APK_MOD": "It sends some special mod apks",
             "CARBON_DESC": "It sends carbon picture",
             "TEMP": "Temperature",
-            "BOT_DESC": "Chat with Pinky.\n Use .molu <message>",
+            "BOT_DESC": "Chat with bot <message>",
             "BOT": ":",
             "DEVICE": "It shows the details of device",
             "DESC": "Description",
@@ -471,9 +471,9 @@
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
         "instagram": {
-            "NEED_WORD": "*Please enter username of any instagram account.*",
+            "NEED_WORD": "*Please enter username of any instagram account. Eg : .insta Sahad.ikr*",
             "USAGE": ".insta <userName>",
-            "DESC": "Fetches user informations from instagram",
+            "DESC": "Fetches user informations from instagram Eg : .insta Sahad.ikr or if you want to download from insta type .insta <post link>",
             "LOADING": "*Searching*",
             "USERNAME": "Username",
             "FULL_NAME": "Fullname",
